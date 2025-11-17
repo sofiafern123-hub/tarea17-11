@@ -1,0 +1,86 @@
+/* Fondo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.app {
+    text-align: center;
+    color: #2c3e50;
+    max-width: 500px;
+}
+
+/* Tarjeta */
+.card {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Inputs y botones */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Resultados */
+.resultados {
+    margin-top: 25px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+.resultados h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.resultados ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resultados li {
+    margin: 8px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
